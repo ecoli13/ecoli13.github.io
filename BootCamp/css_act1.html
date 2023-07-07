@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Activity 1</title>
+</head>
+<style>
+    table {
+        font-family: sans-serif;
+        text-align: center;
+        border: 2.5px dashed #000000;
+    }
+
+    .table-header {
+        color: #fbfbfb;
+        background-color: #8301a7;
+        text-transform: uppercase;
+    }
+
+    img {
+        width: 80px;
+        height: 80px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .odd-row {
+        background-color: #e9a7fb;
+    }
+
+    th,
+    td {
+        height: 30px;
+
+    }
+
+    .name {
+        width: 70px;
+    }
+
+    .age {
+        width: 40px;
+    }
+
+    .email,
+    .address {
+        width: 170px;
+    }
+</style>
+
+<body>
+    <table>
+        <thead class="table-header">
+            <tr>
+                <th>Id no.</th>
+                <th>photo</th>
+                <th>name</th>
+                <th>age</th>
+                <th>email</th>
+                <th>address</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr class="odd-row">
+                <td class="id-number">1</td>
+                <td class="photo"><img src="assets/images/css_act1/ragdoll.jpg" alt="ragdoll cat on the balcony"></td>
+                <td class="name">Bella</td>
+                <td class="age">5</td>
+                <td class="email"><a href="bella@gmail.com">bella@gmail.com</a></td>
+                <td class="address">1234 Meow Street</td>
+            </tr>
+
+            <tr class="even-row">
+                <td class="id-number">2</td>
+                <td class="photo"><img src="assets/images/css_act1/grey.jpg" alt="grey cat in the bush"></td>
+                <td class="name">Max</td>
+                <td class="age">1</td>
+                <td class="email"><a href="max@gmail.com">max@gmail.com</a></td>
+                <td class="address">6789 Puss Street</td>
+            </tr>
+
+            <tr class="odd-row">
+                <td class="id-number">3</td>
+                <td class="photo"><img src="assets/images/css_act1/tabby.jpg" alt="sitting tabby cat"></td>
+                <td class="name">Tiger</td>
+                <td class="age">12</td>
+                <td class="email">N/A</td>
+                <td class="address"> 2579 Tabby Street</td>
+            </tr>
+
+            <tr class="even row">
+                <td class="id-number">4</td>
+                <td class="photo"><img src="assets/images/css_act1/calico.jpg" alt="relaxing calico cat"></td>
+                <td class="name">Kitty</td>
+                <td class="age">7</td>
+                <td class="email"><a href="kitty@gmail.com">kitty@gmail.com</a></td>
+                <td class="address">7057 Calico Ave</td>
+            </tr>
+
+            <tr class="odd-row">
+                <td class="id-number">5</td>
+                <td class="photo"><img src="assets/images/css_act1/black.jpg" alt="sleeping black cat"></td>
+                <td class="name">Simba</td>
+                <td class="age">3</td>
+                <td class="email"><a href="simba@gmail.com">simba@gmail.com</a></td>
+                <td class="address">3927 Black Boulvard</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+
+</html>

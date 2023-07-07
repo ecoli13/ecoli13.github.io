@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Activity 2</title>
+</head>
+
+<style>
+    img {
+        width: 200px;
+        height: 200px;
+    }
+
+    #Jane {
+        border-radius: 15px 15px 0px 0px;
+    }
+
+    .div1 {
+        width: 430px;
+    }
+
+    .div2 {
+        float: left;
+    }
+
+    .div3 {
+        float: right;
+    }
+
+    .div2,
+    .div3 {
+        width: 200px;
+        box-shadow: 0px 3px 3px 0px rgb(156, 156, 156);
+        /*display: flex;
+        flex-wrap: wrap;*/
+    }
+
+    .div4,
+    .div5 {
+        width: 200px;
+        padding: 0px 0px 0px 20px;
+        padding-left: 10px;
+    }
+</style>
+
+<body>
+    <div class="div1">
+        <h1>Profile Cards</h1>
+
+        <div class="div2">
+            <img src="assets/images/css_act1/black.jpg" alt="black cat">
+            <div class="div4">
+                <h2>John Doe</h2>
+                <p>Lazy cat</p>
+            </div>
+        </div>
+
+        <div class="div3">
+            <img src="assets/images/css_act1/calico.jpg" alt="calico cat" id="Jane">
+            <div class="div5">
+                <h2>Jane Doe</h2>
+                <p>Another lazy cat</p>
+            </div>
+        </div>
+    </div>
+
+</body>
